@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LioProject.MVC", "LioProjectSimple\LioProject.MVC.csproj", "{5AA43BF7-ACF7-4A43-B8F3-5DEAB63B6968}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A4712E9C-09DE-40DB-9F7D-878D0581DAFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{560D79BD-1398-4D3C-9E6D-6842360CC941}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{0A158FB4-4E5B-4158-B2FA-BFC8593D7E4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LioProject.Identity", "LioProject.Identity\LioProject.Identity.csproj", "{0DA8D393-475B-47CF-AF3E-F2B0087032F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LioProjectSimple.Domain.Users", "LioProjectSimple.Domain.Users\LioProjectSimple.Domain.Users.csproj", "{CC633222-CD84-42B9-8318-82EB8DD0A427}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LioProject.Domain.Entities", "LioProject.Domain.Entities\LioProject.Domain.Entities.csproj", "{7AC0B270-95BB-45A2-9338-E602E872491B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LioProject.Persistence", "LioProject.Persistence\LioProject.Persistence.csproj", "{E754A447-9B9C-4349-9D32-04E20015F76E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AA43BF7-ACF7-4A43-B8F3-5DEAB63B6968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA43BF7-ACF7-4A43-B8F3-5DEAB63B6968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA43BF7-ACF7-4A43-B8F3-5DEAB63B6968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA43BF7-ACF7-4A43-B8F3-5DEAB63B6968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA8D393-475B-47CF-AF3E-F2B0087032F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA8D393-475B-47CF-AF3E-F2B0087032F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA8D393-475B-47CF-AF3E-F2B0087032F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA8D393-475B-47CF-AF3E-F2B0087032F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC633222-CD84-42B9-8318-82EB8DD0A427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC633222-CD84-42B9-8318-82EB8DD0A427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC633222-CD84-42B9-8318-82EB8DD0A427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC633222-CD84-42B9-8318-82EB8DD0A427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC0B270-95BB-45A2-9338-E602E872491B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC0B270-95BB-45A2-9338-E602E872491B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC0B270-95BB-45A2-9338-E602E872491B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC0B270-95BB-45A2-9338-E602E872491B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E754A447-9B9C-4349-9D32-04E20015F76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E754A447-9B9C-4349-9D32-04E20015F76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E754A447-9B9C-4349-9D32-04E20015F76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E754A447-9B9C-4349-9D32-04E20015F76E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DA8D393-475B-47CF-AF3E-F2B0087032F3} = {0A158FB4-4E5B-4158-B2FA-BFC8593D7E4F}
+		{CC633222-CD84-42B9-8318-82EB8DD0A427} = {560D79BD-1398-4D3C-9E6D-6842360CC941}
+		{7AC0B270-95BB-45A2-9338-E602E872491B} = {560D79BD-1398-4D3C-9E6D-6842360CC941}
+		{E754A447-9B9C-4349-9D32-04E20015F76E} = {0A158FB4-4E5B-4158-B2FA-BFC8593D7E4F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12A3D3FD-1E1A-4C4B-9831-24C2D86B5E91}
+	EndGlobalSection
+EndGlobal

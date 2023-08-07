@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "B:\\Source\\Repos\\Wa-eventManager\\LioProjectSimple\\LioProject.Domain.Entities\\LioProject.Domain.Entities.csproj": {}
+  },
+  "projects": {
+    "B:\\Source\\Repos\\Wa-eventManager\\LioProjectSimple\\LioProject.Domain.Entities\\LioProject.Domain.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Source\\Repos\\Wa-eventManager\\LioProjectSimple\\LioProject.Domain.Entities\\LioProject.Domain.Entities.csproj",
+        "projectName": "LioProject.Domain.Entities",
+        "projectPath": "B:\\Source\\Repos\\Wa-eventManager\\LioProjectSimple\\LioProject.Domain.Entities\\LioProject.Domain.Entities.csproj",
+        "packagesPath": "C:\\Users\\BernardoESTACIOABREU\\.nuget\\packages\\",
+        "outputPath": "B:\\Source\\Repos\\Wa-eventManager\\LioProjectSimple\\LioProject.Domain.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BernardoESTACIOABREU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AjnaTellus/Minerva/_packaging/MinervaNugets/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
